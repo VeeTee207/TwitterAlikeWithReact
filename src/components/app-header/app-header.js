@@ -21,7 +21,7 @@ const Header = styled.div`
 `
 
 const AppHeader = () => {
-{/* <div className='app-header d-flex'> */}
+// <div className='app-header d-flex'> 
 
     return (
         // <Header colored> 
