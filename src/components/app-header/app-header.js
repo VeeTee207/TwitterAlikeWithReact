@@ -20,14 +20,14 @@ const Header = styled.div`
     }
 `
 
-const AppHeader = () => {
+const AppHeader = ({allPosts, liked}) => {
 // <div className='app-header d-flex'> 
 
     return (
         // <Header colored> 
-        <Header as='a'>        
-            <h1>Zmei Gorinich</h1>
-            <h2>10 records, liked 2</h2>
+        <Header>        
+            <h1>Zmei Gorinchi</h1>
+            <h2>{allPosts} records, liked {liked}</h2>
         </Header>
     )
 }
