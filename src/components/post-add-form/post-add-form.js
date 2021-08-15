@@ -18,7 +18,7 @@ export default class PostAddForm extends Component{
     }
 
     onSubmit (e) {
-        // to do form correctly the browser has to cansel standart  behaviour
+        // to do form correctly the browser has to cancel standart  behaviour
         e.preventDefault();
         this.props.onAdd(this.state.text)
         this.setState({

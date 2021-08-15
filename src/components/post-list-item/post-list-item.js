@@ -5,7 +5,7 @@ import "./post-list-item.css";
 
 export default class PostListItem extends Component {
 
-            //  since important and like are linked abov to app.js 
+            //  since important and like are linked above to app.js 
             //  eleminate state with like+important
     render(){
         const {label, onDelete, onToggleImportant, onToggleLiked, important, like} = this.props;
